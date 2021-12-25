@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link href="style/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/integration
+            emailjs.init("user_haogWhjxL4w2dF6sQfGjW");
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('form-in').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+                this.contact_number.value = Math.random() * 100000 | 0;
+                // these IDs from the previous steps
+                emailjs.sendForm('service_1m80fwo', 'template_komz1d6', this)
+                    .then(function() {
+                        console.log('SUCCESS!');
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+        
+    </script>
+
+</head>
+<body>
+    <header>
+            <img class="img-logo" src="img/img1.png">
+            <div class="line"> </div>
+            <p class="ua">UA</p>
+            <p class="ru">RU</p>
+            <div class="ru-bc"></div>
+            <div class="line2"></div>
+            <p class="usd">USD 28,90</p>
+            <p class="eur">EUR 35,00</p>
+            <div class="line3">
+                <img class="facebook" src="img/-facebook.png">
+                <img class="inst" src="img/instagram.png">
+                <img class="yt" src="img/youtube.png">
+                <div class="line4"></div>
+                <p class="nb1">044-537-20-07</p>
+                <p class="nb2">068-537-20-07 </p>
+            </div>
+            <img class="ph" src="img/vibration.png">
+            <div class="line6"></div>
+            <div class="mo"><p class="mot"> Maistra ONLINE</p></div>
+            <div class="red"> <img class="cl" src="img/calendar.png"></div>
+            <div class="to"><p class="tot">ТУРЫ ONLINE</p></div>
+            <div class="green"><img class="sr" src="img/search-interface-symbol.png"></div>
+            <div class="line7"></div>
+    </header>
+    <div class="nav">
+            <img class="sr1" src="img/search-interface-symbol (1).png">
+                <div class="nav-in">
+                     <a class="nav-link" href="#">Отели</a>
+                     <a class="nav-link" href="#">Страны</a>
+                     <a class="nav-link" href="#">Авиа</a>
+                     <a class="nav-link" href="#">Каталог туров</a>
+                     <a class="nav-link" href="#">Агентам</a>
+                     <a class="nav-link" href="#">О нас</a>
+                     <a class="nav-link" href="#">Блог</a>
+                     <a class="nav-link" href="#">FAQ</a>
+                     <a class="nav-link" href="file:///C:/Users/User40/Desktop/k.fund/shapovalova_sasha/work23(1)/work23/index2.html">Контакты</a>
+                </div>
+    </div>
+        <div class="intro">
+            <div class="cena"><p class="cena-in">От 300 € за сутки</p></div>
+            <p class="title">новый эко-отель mastila на о. хвар в Хорватии</p>
+            <button class="intro-btn"><p class="btn-in">Подробнее</p> </button>
+                <div class="circle1"></div>
+                <div class="circle2"></div>
+                <div class="circle3"></div>
+                <div class="circle4"></div>
+                <div class="circle5"></div>
+        </div>
+        <div class="intro-context">
+            <p class="ic-in">ВАШ ТУРОПЕРАТОР ВЫСОКОГО УРОВНЯ ОБСЛУЖИВАНИЯ.</p>
+            <p class="ic-in-context"> Откройте мир путешествий заново.</p>
+                <div class="ic-btn">
+                    <button class="ic-btn-in">Что мы предлагаем?</button>
+                    <button class="ic-btn-in">Консультация</button>
+                </div>
+                <div class="ic-in-png">
+                    <svg width="45" height="175" viewBox="0 0 45 175" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="22.5" cy="22.5" r="21.9" stroke="#969696" stroke-width="1.2" stroke-dasharray="6 4"/>
+                        <circle cx="22.5" cy="87.5" r="21.9" stroke="#969696" stroke-width="1.2" stroke-dasharray="6 4"/>
+                        <circle cx="22.5" cy="152.5" r="21.9" stroke="#969696" stroke-width="1.2" stroke-dasharray="6 4"/>
+                        <path d="M27.7492 13.6932C27.2516 13.2249 26.6148 13 25.973 13C25.2506 13 24.521 13.2848 23.977 13.8295L23.7436 14.063L23.5101 13.8288C22.9661 13.2848 22.2365 13 21.5141 13C20.8723 13 20.2355 13.2249 19.7379 13.6932C18.6436 14.7233 18.6243 16.4466 19.6794 17.5018L23.7436 21.5659L27.8077 17.5018C28.8628 16.4466 28.8436 14.7233 27.7492 13.6932Z" fill="#969696"/>
+                        <path d="M31.739 23.6352C31.1144 23.2119 30.3783 23.3318 29.7266 23.708C29.0748 24.0842 25.3326 27.2839 25.3326 27.2839L21.6489 27.2846C21.4776 27.2846 21.292 27.0919 21.292 26.9212C21.292 26.7206 21.4669 26.5643 21.6489 26.5643H23.9027C24.6915 26.5643 25.5746 26.0503 25.5746 25.1365C25.5746 24.1656 24.6915 23.7087 23.9027 23.7087C22.5341 23.7087 22.2679 23.7145 22.2679 23.7145C21.7196 23.7145 21.1635 23.6816 20.7351 23.4525C20.164 23.1598 19.5058 22.9941 18.8034 22.9941C17.624 22.9941 16.5682 23.4646 15.8443 24.2063L12 27.9914L16.2833 32.2747L17.7111 30.8469H24.9406C25.6602 30.8469 26.3549 30.5828 26.8924 30.1052L31.7875 24.614C32.0867 24.3484 32.0695 23.8601 31.739 23.6352Z" fill="#969696"/>
+                        <path d="M31.081 91.0948C30.9224 90.8861 30.7083 90.7231 30.4645 90.6265C30.0379 90.4576 29.5749 90.4927 29.1857 90.7175L26.6157 92.2013C26.6011 92.418 26.56 92.637 26.4881 92.854C26.0463 94.1867 24.62 94.9251 23.2638 94.5617L20.7234 93.881C20.4108 93.7973 20.2253 93.476 20.309 93.1634C20.3928 92.8508 20.7141 92.6653 21.0267 92.7491L23.6059 93.4402C24.3873 93.6495 25.1906 93.1858 25.3999 92.4044C25.6093 91.6229 25.1456 90.8197 24.3642 90.6103L20.4264 89.5552C19.6705 89.3527 18.881 89.4566 18.2033 89.8479L13.2931 92.6828C13.0128 92.8446 12.9168 93.203 13.0786 93.4832L15.5171 97.7069C15.5948 97.8415 15.7228 97.9396 15.8729 97.9799C16.023 98.0201 16.1829 97.9991 16.3175 97.9213L18.5319 96.6428L23.2687 96.9484C23.8478 96.9857 24.4195 96.8521 24.9221 96.5619L30.6506 93.2547C31.4043 92.8194 31.625 91.8109 31.081 91.0948Z" fill="#969696"/>
+                        <path d="M18.2852 87.375H26.0976C26.4212 87.375 26.6836 87.1126 26.6836 86.789C26.6836 85.2338 25.8891 83.8608 24.6847 83.0542C24.0358 83.6737 23.1573 84.0547 22.1914 84.0547C21.2255 84.0547 20.347 83.6737 19.6981 83.0542C18.4937 83.8608 17.6992 85.2338 17.6992 86.789C17.6992 87.1126 17.9616 87.375 18.2852 87.375Z" fill="#969696"/>
+                        <path d="M22.1914 82.8828C23.5398 82.8828 24.6328 81.7898 24.6328 80.4414C24.6328 79.0931 23.5398 78 22.1914 78C20.8431 78 19.75 79.0931 19.75 80.4414C19.75 81.7898 20.8431 82.8828 22.1914 82.8828Z" fill="#969696"/>
+                        <path d="M32.936 150.595C32.8637 150.372 32.6716 150.21 32.4402 150.176L25.9406 149.232L23.0338 143.342C22.9304 143.133 22.7169 143 22.4831 143C22.2493 143 22.0357 143.133 21.9323 143.342L19.0254 149.232L12.5259 150.176C12.2946 150.21 12.1023 150.372 12.0301 150.594C11.9578 150.817 12.0181 151.061 12.1855 151.224L16.8885 155.809L15.7784 162.282C15.7389 162.512 15.8336 162.745 16.0228 162.883C16.1298 162.96 16.2565 163 16.3839 163C16.4816 163 16.5798 162.977 16.6696 162.929L22.483 159.873L28.2962 162.929C28.5032 163.038 28.754 163.02 28.9431 162.883C29.1322 162.745 29.227 162.512 29.1875 162.282L28.0771 155.809L32.7806 151.224C32.948 151.061 33.0083 150.817 32.936 150.595Z" fill="#969696"/>
+                        </svg>
+                    </div>
+                    <div class="ic-inner">
+                        <div class="ic-inner-in"> ИНДИВИДУАЛЬНЫЙ ПОДХОД</div>
+                        <div class="ic-inner-in">КОНСЬЕРЖ-СЕРВИС</div>
+                        <div class="ic-inner-in">ОТДЫХ ПРЕМИУМ-КЛАССА</div>
+                    </div>
+        </div>
+                <div class="best-hotels">
+                    <p class="bh">ЛУЧШИЕ ОТЕЛИ</p>
+                    <div class="btn-bh">
+                        <button class="bh-btn"><i class="fas fa-arrow-right"></i></button>
+                        <button class="bh-btn"><i class="fas fa-arrow-right"></i></button>
+                        <div class="line8"></div>
+                    </div>
+                   <button class="all-h">Все отели</button>
+                </div>
+                    <div class="bh-img">
+                        <div class="imgbh1">
+                                <div class="hotel-title">
+                            <p class="hotel-title-in">Портонови, Черногория</p>
+                                 </div>
+                                <div class="imgbhin">
+                                <svg width="91" height="18" viewBox="0 0 91 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M90.7231 6.83507C90.6585 6.63491 90.4866 6.48904 90.2797 6.45882L84.4671 5.60878L81.8676 0.308139C81.7751 0.119445 81.5841 0 81.375 0C81.1659 0 80.975 0.119445 80.8824 0.308139L78.2828 5.60878L72.4703 6.45882C72.2634 6.48904 72.0915 6.63491 72.0269 6.83503C71.9623 7.03519 72.0162 7.25488 72.1659 7.40174L76.3718 11.5277L75.379 17.3538C75.3437 17.5612 75.4284 17.7707 75.5976 17.8944C75.6933 17.9644 75.8066 18 75.9205 18C76.0079 18 76.0957 17.979 76.176 17.9365L81.375 15.1858L86.5737 17.9365C86.7589 18.0344 86.9831 18.0181 87.1522 17.8944C87.3214 17.7707 87.4062 17.5611 87.3708 17.3537L86.3778 11.5277L90.5841 7.4017C90.7338 7.25488 90.7877 7.03519 90.7231 6.83507Z" fill="#FFD600"/>
+                            <path d="M66.7231 6.83507C66.6585 6.63491 66.4866 6.48904 66.2797 6.45882L60.4671 5.60878L57.8676 0.308139C57.7751 0.119445 57.5841 0 57.375 0C57.1659 0 56.975 0.119445 56.8824 0.308139L54.2828 5.60878L48.4703 6.45882C48.2634 6.48904 48.0915 6.63491 48.0269 6.83503C47.9623 7.03519 48.0162 7.25488 48.1659 7.40174L52.3718 11.5277L51.379 17.3538C51.3437 17.5612 51.4284 17.7707 51.5976 17.8944C51.6933 17.9644 51.8066 18 51.9205 18C52.0079 18 52.0957 17.979 52.176 17.9365L57.375 15.1858L62.5737 17.9365C62.7589 18.0344 62.9831 18.0181 63.1522 17.8944C63.3214 17.7707 63.4062 17.5611 63.3708 17.3537L62.3778 11.5277L66.5841 7.4017C66.7338 7.25488 66.7877 7.03519 66.7231 6.83507Z" fill="#FFD600"/>
+                            <path d="M42.7231 6.83507C42.6585 6.63491 42.4866 6.48904 42.2797 6.45882L36.4671 5.60878L33.8676 0.308139C33.7751 0.119445 33.5841 0 33.375 0C33.1659 0 32.975 0.119445 32.8824 0.308139L30.2828 5.60878L24.4703 6.45882C24.2634 6.48904 24.0915 6.63491 24.0269 6.83503C23.9623 7.03519 24.0162 7.25488 24.1659 7.40174L28.3718 11.5277L27.379 17.3538C27.3437 17.5612 27.4284 17.7707 27.5976 17.8944C27.6933 17.9644 27.8066 18 27.9205 18C28.0079 18 28.0957 17.979 28.176 17.9365L33.375 15.1858L38.5737 17.9365C38.7589 18.0344 38.9831 18.0181 39.1522 17.8944C39.3214 17.7707 39.4062 17.5611 39.3708 17.3537L38.3778 11.5277L42.5841 7.4017C42.7338 7.25488 42.7877 7.03519 42.7231 6.83507Z" fill="#FFD600"/>
+                            <path d="M18.7231 6.83507C18.6585 6.63491 18.4866 6.48904 18.2797 6.45882L12.4671 5.60878L9.86758 0.308139C9.77508 0.119445 9.5841 0 9.37503 0C9.16592 0 8.97498 0.119445 8.88244 0.308139L6.28279 5.60878L0.470318 6.45882C0.263446 6.48904 0.0915109 6.63491 0.0269116 6.83503C-0.0377244 7.03519 0.0161816 7.25488 0.165925 7.40174L4.37177 11.5277L3.37905 17.3538C3.34367 17.5612 3.42841 17.7707 3.59756 17.8944C3.69325 17.9644 3.8066 18 3.92049 18C4.00794 18 4.09568 17.979 4.17603 17.9365L9.37499 15.1858L14.5737 17.9365C14.7589 18.0344 14.9831 18.0181 15.1522 17.8944C15.3214 17.7707 15.4062 17.5611 15.3708 17.3537L14.3778 11.5277L18.5841 7.4017C18.7338 7.25488 18.7877 7.03519 18.7231 6.83507Z" fill="#FFD600"/>
+                            </svg>
+                                </div> 
+                                <p class="bh-img-in">One&Only Portonovi</p>
+                        </div>
+                        <div class="imgbh2">
+                            <div class="hotel-title">
+                                <p class="hotel-title-in">   Ровінь, п-в Істра</p>
+                                     </div>
+                            <div class="imgbhin">
+                                <svg width="91" height="18" viewBox="0 0 91 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M90.7231 6.83507C90.6585 6.63491 90.4866 6.48904 90.2797 6.45882L84.4671 5.60878L81.8676 0.308139C81.7751 0.119445 81.5841 0 81.375 0C81.1659 0 80.975 0.119445 80.8824 0.308139L78.2828 5.60878L72.4703 6.45882C72.2634 6.48904 72.0915 6.63491 72.0269 6.83503C71.9623 7.03519 72.0162 7.25488 72.1659 7.40174L76.3718 11.5277L75.379 17.3538C75.3437 17.5612 75.4284 17.7707 75.5976 17.8944C75.6933 17.9644 75.8066 18 75.9205 18C76.0079 18 76.0957 17.979 76.176 17.9365L81.375 15.1858L86.5737 17.9365C86.7589 18.0344 86.9831 18.0181 87.1522 17.8944C87.3214 17.7707 87.4062 17.5611 87.3708 17.3537L86.3778 11.5277L90.5841 7.4017C90.7338 7.25488 90.7877 7.03519 90.7231 6.83507Z" fill="#FFD600"/>
+                            <path d="M66.7231 6.83507C66.6585 6.63491 66.4866 6.48904 66.2797 6.45882L60.4671 5.60878L57.8676 0.308139C57.7751 0.119445 57.5841 0 57.375 0C57.1659 0 56.975 0.119445 56.8824 0.308139L54.2828 5.60878L48.4703 6.45882C48.2634 6.48904 48.0915 6.63491 48.0269 6.83503C47.9623 7.03519 48.0162 7.25488 48.1659 7.40174L52.3718 11.5277L51.379 17.3538C51.3437 17.5612 51.4284 17.7707 51.5976 17.8944C51.6933 17.9644 51.8066 18 51.9205 18C52.0079 18 52.0957 17.979 52.176 17.9365L57.375 15.1858L62.5737 17.9365C62.7589 18.0344 62.9831 18.0181 63.1522 17.8944C63.3214 17.7707 63.4062 17.5611 63.3708 17.3537L62.3778 11.5277L66.5841 7.4017C66.7338 7.25488 66.7877 7.03519 66.7231 6.83507Z" fill="#FFD600"/>
+                            <path d="M42.7231 6.83507C42.6585 6.63491 42.4866 6.48904 42.2797 6.45882L36.4671 5.60878L33.8676 0.308139C33.7751 0.119445 33.5841 0 33.375 0C33.1659 0 32.975 0.119445 32.8824 0.308139L30.2828 5.60878L24.4703 6.45882C24.2634 6.48904 24.0915 6.63491 24.0269 6.83503C23.9623 7.03519 24.0162 7.25488 24.1659 7.40174L28.3718 11.5277L27.379 17.3538C27.3437 17.5612 27.4284 17.7707 27.5976 17.8944C27.6933 17.9644 27.8066 18 27.9205 18C28.0079 18 28.0957 17.979 28.176 17.9365L33.375 15.1858L38.5737 17.9365C38.7589 18.0344 38.9831 18.0181 39.1522 17.8944C39.3214 17.7707 39.4062 17.5611 39.3708 17.3537L38.3778 11.5277L42.5841 7.4017C42.7338 7.25488 42.7877 7.03519 42.7231 6.83507Z" fill="#FFD600"/>
+                            <path d="M18.7231 6.83507C18.6585 6.63491 18.4866 6.48904 18.2797 6.45882L12.4671 5.60878L9.86758 0.308139C9.77508 0.119445 9.5841 0 9.37503 0C9.16592 0 8.97498 0.119445 8.88244 0.308139L6.28279 5.60878L0.470318 6.45882C0.263446 6.48904 0.0915109 6.63491 0.0269116 6.83503C-0.0377244 7.03519 0.0161816 7.25488 0.165925 7.40174L4.37177 11.5277L3.37905 17.3538C3.34367 17.5612 3.42841 17.7707 3.59756 17.8944C3.69325 17.9644 3.8066 18 3.92049 18C4.00794 18 4.09568 17.979 4.17603 17.9365L9.37499 15.1858L14.5737 17.9365C14.7589 18.0344 14.9831 18.0181 15.1522 17.8944C15.3214 17.7707 15.4062 17.5611 15.3708 17.3537L14.3778 11.5277L18.5841 7.4017C18.7338 7.25488 18.7877 7.03519 18.7231 6.83507Z" fill="#FFD600"/>
+                            </svg>
+                                </div> 
+                                 <p class="bh-img-in">Зимовка в Regent 
+                                Porto Montenegro</p>
+                        </div>
+                        <div class="imgbh3">
+                            <div class="hotel-title">
+                                <p class="hotel-title-in">Бока Котор, Черногория</p>
+                                     </div>
+                            <div class="imgbhin2">
+                                <svg width="91" height="18" viewBox="0 0 91 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M90.7231 6.83507C90.6585 6.63491 90.4866 6.48904 90.2797 6.45882L84.4671 5.60878L81.8676 0.308139C81.7751 0.119445 81.5841 0 81.375 0C81.1659 0 80.975 0.119445 80.8824 0.308139L78.2828 5.60878L72.4703 6.45882C72.2634 6.48904 72.0915 6.63491 72.0269 6.83503C71.9623 7.03519 72.0162 7.25488 72.1659 7.40174L76.3718 11.5277L75.379 17.3538C75.3437 17.5612 75.4284 17.7707 75.5976 17.8944C75.6933 17.9644 75.8066 18 75.9205 18C76.0079 18 76.0957 17.979 76.176 17.9365L81.375 15.1858L86.5737 17.9365C86.7589 18.0344 86.9831 18.0181 87.1522 17.8944C87.3214 17.7707 87.4062 17.5611 87.3708 17.3537L86.3778 11.5277L90.5841 7.4017C90.7338 7.25488 90.7877 7.03519 90.7231 6.83507Z" fill="#FFD600"/>
+                            <path d="M66.7231 6.83507C66.6585 6.63491 66.4866 6.48904 66.2797 6.45882L60.4671 5.60878L57.8676 0.308139C57.7751 0.119445 57.5841 0 57.375 0C57.1659 0 56.975 0.119445 56.8824 0.308139L54.2828 5.60878L48.4703 6.45882C48.2634 6.48904 48.0915 6.63491 48.0269 6.83503C47.9623 7.03519 48.0162 7.25488 48.1659 7.40174L52.3718 11.5277L51.379 17.3538C51.3437 17.5612 51.4284 17.7707 51.5976 17.8944C51.6933 17.9644 51.8066 18 51.9205 18C52.0079 18 52.0957 17.979 52.176 17.9365L57.375 15.1858L62.5737 17.9365C62.7589 18.0344 62.9831 18.0181 63.1522 17.8944C63.3214 17.7707 63.4062 17.5611 63.3708 17.3537L62.3778 11.5277L66.5841 7.4017C66.7338 7.25488 66.7877 7.03519 66.7231 6.83507Z" fill="#FFD600"/>
+                            <path d="M42.7231 6.83507C42.6585 6.63491 42.4866 6.48904 42.2797 6.45882L36.4671 5.60878L33.8676 0.308139C33.7751 0.119445 33.5841 0 33.375 0C33.1659 0 32.975 0.119445 32.8824 0.308139L30.2828 5.60878L24.4703 6.45882C24.2634 6.48904 24.0915 6.63491 24.0269 6.83503C23.9623 7.03519 24.0162 7.25488 24.1659 7.40174L28.3718 11.5277L27.379 17.3538C27.3437 17.5612 27.4284 17.7707 27.5976 17.8944C27.6933 17.9644 27.8066 18 27.9205 18C28.0079 18 28.0957 17.979 28.176 17.9365L33.375 15.1858L38.5737 17.9365C38.7589 18.0344 38.9831 18.0181 39.1522 17.8944C39.3214 17.7707 39.4062 17.5611 39.3708 17.3537L38.3778 11.5277L42.5841 7.4017C42.7338 7.25488 42.7877 7.03519 42.7231 6.83507Z" fill="#FFD600"/>
+                            <path d="M18.7231 6.83507C18.6585 6.63491 18.4866 6.48904 18.2797 6.45882L12.4671 5.60878L9.86758 0.308139C9.77508 0.119445 9.5841 0 9.37503 0C9.16592 0 8.97498 0.119445 8.88244 0.308139L6.28279 5.60878L0.470318 6.45882C0.263446 6.48904 0.0915109 6.63491 0.0269116 6.83503C-0.0377244 7.03519 0.0161816 7.25488 0.165925 7.40174L4.37177 11.5277L3.37905 17.3538C3.34367 17.5612 3.42841 17.7707 3.59756 17.8944C3.69325 17.9644 3.8066 18 3.92049 18C4.00794 18 4.09568 17.979 4.17603 17.9365L9.37499 15.1858L14.5737 17.9365C14.7589 18.0344 14.9831 18.0181 15.1522 17.8944C15.3214 17.7707 15.4062 17.5611 15.3708 17.3537L14.3778 11.5277L18.5841 7.4017C18.7338 7.25488 18.7877 7.03519 18.7231 6.83507Z" fill="#FFD600"/>
+                            </svg>
+                                </div>
+                                 <p class="bh-img-in1">Лечение в Naftalan с 
+                                авиа Киев-Загреб-Киев</p>
+                        </div>
+                    </div>
+                        <div class="ac-t">
+                            <p class="ac-t-title">АКТУАЛЬНЫЕ ТУРЫ </p>
+                            <div class="line9"></div>
+                            <button class="all-t">Все туры</button>
+                            <div class="ac-t-img">
+                                <div class="ac-t-img1">
+                                    <div class="hotel-title">
+                                         <p class="hotel-title-in">Портонови, Черногория</p>
+                                    </div>
+                                    <div class="ac-t-subtitle">
+                                        <p class="ac-t-stitle">One&Only Portonovi</p>
+                                        <p class="ac-t-text">первый ультрароскошный курорт One&Only в Европе</p>
+                                        <div class="line10"></div>
+                                        <p class="price">от 818 €</p>
+                                        <p class="price-subtitle">за номер в сутки в сезон</p>
+                                        <p class="price-left">от 3 ночей с 01 мая 2021</p>
+                                    </div>
+                                </div>  
+                                <div class="ac-t-img2">
+                                    <div class="hotel-title">
+                                         <p class="hotel-title-in">Ровінь, п-в Істра</p>
+                                    </div>
+                                    <div class="ac-t-subtitle">
+                                        <p class="ac-t-stitle">Зимовка в Regent  Porto Montenegro</p>
+                                        <p class="ac-t-text1">це втілення високого стилю, в якому поєднується зручність...</p>
+                                        <div class="line10"></div>
+                                        <p class="price">от 938 €</p>
+                                        <p class="price-subtitle">з особи</p>
+                                        <p class="price-left">от 3 ночей с 01 мая 2021</p>
+                                    </div>
+                                </div>  
+                                <div class="ac-t-img3">
+                                    <div class="hotel-title">
+                                         <p class="hotel-title-in">Бока Котор, Черногория</p>
+                                    </div>
+                                    <div class="ac-t-subtitle">
+                                        <p class="ac-t-stitle">Лечение в Naftalan с авиа Киев-Загреб-Киев</p>
+                                        <p class="ac-t-text1">первый бренд, воплотивший оригинальную концепцию пляжных...</p>
+                                        <div class="line10"></div>
+                                        <p class="price">от 175 €</p>
+                                        <p class="price-subtitle">за номер в сутки</p>
+                                        <p class="price-left">от 3 ночей с 01 мая 2021</p>
+                                    </div>
+                                </div>  
+                             </div>
+                             <div class="line11"></div>
+                             <div class="form">
+                                 <div class="form-titles">
+                                     <img class="form-img" src="img/compass-circular-tool.png">
+                                     <p class="form-text1">Откуда</p>
+                                     <img class="form-img" src="img/pin.png">
+                                     <p class="form-text1">Куда (страна)</p>
+                                     <img class="form-img1" src="img/date.png">
+                                     <p class="form-text1">Дата заезда</p>
+                                     <img class="form-img1" src="img/us.png">
+                                     <p class="form-text1">Туристы</p>
+                                     <img class="form-img1" src="img/time.png">
+                                     <p class="form-text1">Ночей</p>
+                                 </div>
+                                 <form class="form-in1">
+                                     <input type="text" size="10" placeholder="Киев">
+                                     <select class="select1">
+                                        <option>Выберите страну</option>
+                                        <option>Пункт 2</option>
+                                        <option>Пункт 3</option>
+                                        <option>Пункт 4</option>
+                                      </select>
+                                      <select class="select2">
+                                        <option>От</option>
+                                        <option>Пункт 2</option>
+                                        <option>Пункт 3</option>
+                                        <option>Пункт 4</option>
+                                      </select>
+                                      <select class="select2">
+                                        <option>До</option>
+                                        <option>Пункт 2</option>
+                                        <option>Пункт 3</option>
+                                        <option>Пункт 4</option>
+                                      </select>
+                                      <input class="text1" type="text" size="10" placeholder="2 взрослых">
+                                      <select class="select2">
+                                        <option>От</option>
+                                        <option>Пункт 2</option>
+                                        <option>Пункт 3</option>
+                                        <option>Пункт 4</option>
+                                      </select>
+                                      <select class="select2">
+                                        <option>До</option>
+                                        <option>Пункт 2</option>
+                                        <option>Пункт 3</option>
+                                        <option>Пункт 4</option>
+                                      </select>
+                                      <button class="form-btn">Найти</button>
+                                 </form>
+                             </div>
+                             <div class="imp-news">
+                                 <p class="imp-news-title">ВАЖНЫЕ НОВОСТИ </p>
+                                 <div class="line12"></div>
+                                 <button class="imp-news-btn">Все новости</button>
+                         <div class="imp-img-all">
+                                    <div class="imp-n-img">
+                                        <img class="imp-img" src="img/impn1.jfif">
+                                        <div class="imp-bottom">
+                                            <img class="imp-date" src="img/date.png">
+                                            <p class="imp-date-in">18 марта, 2021</p>
+                                            <p class="imp-subtitle">Зимовка в Regent Porto Montenegro</p>
+                                            <a class="imp-link" href="#">Подробнее</a>
+                                        </div>
+                                    </div>
+                                    <div class="imp-n-img">
+                                        <img class="imp-img" src="img/imp2.jfif">
+                                        <div class="imp-bottom">
+                                            <img class="imp-date" src="img/date.png">
+                                            <p class="imp-date-in">18 марта, 2021</p>
+                                            <p class="imp-subtitle">Зимовка в Regent Porto Montenegro</p>
+                                            <a class="imp-link" href="#">Подробнее</a>
+                                        </div>
+                                    </div>
+                                    <div class="imp-n-img">
+                                        <img class="imp-img" src="img/imp3.jfif">
+                                        <div class="imp-bottom">
+                                            <img class="imp-date" src="img/date.png">
+                                            <p class="imp-date-in">18 марта, 2021</p>
+                                            <p class="imp-subtitle">Зимовка в Regent Porto Montenegro</p>
+                                            <a class="imp-link" href="#">Подробнее</a>
+                                        </div>
+                                    </div>
+                                    <div class="imp-n-img">
+                                        <img class="imp-img" src="img/imp4.png">
+                                        <div class="imp-bottom">
+                                            <img class="imp-date" src="img/date.png">
+                                            <p class="imp-date-in">18 марта, 2021</p>
+                                            <p class="imp-subtitle">Зимовка в Regent Porto Montenegro</p>
+                                            <a class="imp-link" href="#">Подробнее</a>
+                                        </div>
+                                    </div>
+                        </div>
+                             </div>
+                <div class="pink-form">
+                    <div class="ptitles">
+                        <p class="pink-form-title">ПУТЕШЕСТВУЙ С Valanta Travel Company!</p>
+                        <p class="pink-form-subtitle">Подписывайтесь на нашу рассылку, чтобы получать самые горячие предложения</p>
+                    </div>
+                    <div class="line-form"><img class="flines" src="img/flines.png"></div>
+                    <form id="form-in" >
+                        <input type="hidden" name="contact_number">
+                        <input id="email" type="text" size="50" placeholder="Email" name="reply_to">
+                        <input class="tt" type="radio" size="10" name="answer" value="a1"><p class="tt-in"> Я турист</p> 
+                        <input class="tt" type="radio" size="10" name="answer" value="a2"><p class="tt-in"> Я турагент</p>
+                        <input type="submit" class="tt-btn">
+                    </form>
+                </div>
+                <div class="why">
+                        <p class="w-title">ПОЧЕМУ ВЫБИРАЮТ НАС</p>
+                        <div class="card-all">
+                            <div class="card1">
+                                <p class="card-in">Полностью персонализированный подход к оформлению путешествия.</p> 
+                                <p class="check"><i class="far fa-check-square"></i></p>
+                            </div>
+                            <div class="card1">
+                                <p class="card-in">Консьерж-сервис и дополнительные услуги по запросу клиента: от билетов на мероприятия до уникальных туристических маршрутов.</p>
+                                <p class="check"><i class="far fa-check-square"></i></p>
+                            </div>
+                        </div>
+                        <div class="card-all">
+                            <div class="card1">
+                                <p class="card-in">Эксклюзивные предложения от мировых отельных цепочек.</p> 
+                                <p class="check"><i class="far fa-check-square"></i></p>
+                            </div>
+                            <div class="card1">
+                                <p class="card-in">18 лет мы обеспечиваем незабываемый отдых клиентам и поддерживаем безупречную репутацию.</p>
+                                <p class="check"><i class="far fa-check-square"></i></p>
+                            </div>
+                        </div>
+                        <div class="card-all">
+                            <div class="card1">
+                                <p class="card-in">Хорватия, Черногория, Словения и Италия – наши основные направления. Мы досконально знаем эти страны.</p> 
+                                <p class="check"><i class="far fa-check-square"></i></p>
+                            </div>
+                            <div class="card1">
+                                <p class="card-in">Требовательный подход и внимание к деталям мы используем для организации туров и в другие страны.</p>
+                                <p class="check"><i class="far fa-check-square"></i></p>
+                            </div>
+                        </div>
+                        <div class="card-all">
+                            <div class="card2">
+                                <p class="card-in">Гарантию лучшей стоимости мы обеспечиваем, заранее выкупая авиабилеты на чартерные рейсы.</p> 
+                                <p class="check"><i class="far fa-check-square"></i></p>
+                            </div>
+                            <div class="card2">
+                                <p class="card-in">С нами будут только приятные сюрпризы: мы вовремя предоставим всю необходимую информацию по правилам въезда, интересным событиям и другим важным новостям</p>
+                                <p class="check"><i class="far fa-check-square"></i></p>
+                            </div>
+                        </div>
+                </div>
+                <div class="off">
+                    <p class="off-title">Вы – представитель турагентства?</p>
+                    <p class="off-subtitle">Для вас у нас есть специальные выгодные предложения.</p>
+                    <div class="off-btn">Узнать подробнее</div>
+                    <img class="offer-img" src="img/offer.png">
+                </div>
+                <div class="provide">
+                    <p class="mistral">Мы обеспечиваем</p>
+                    <p class="provide-title">ОТДЫХ ПРЕМИУМ-КЛАССА С БОЛЬШИМ ВНИМАНИЕМ К ДЕТАЛЯМ</p>
+                    <p class="p-subtitle">Специализируемся на 4 странах </p>
+                    <div class="flag-bot">
+                        <div class="flag-bot-in">
+                            <p class="fb-in">ХОРВАТИЯ</p>
+                            <button class="fb-btn">Подробнее</button>
+                        </div>
+                        <div class="flag-bot-in1">
+                            <p class="fb-in1">ЧЕРНОГОРИЯ</p>
+                            <button class="fb-btn">Подробнее</button>
+                        </div>
+                        <div class="flag-bot-in1">
+                            <p class="fb-in">СЛОВЕНИЯ</p>
+                            <button class="fb-btn">Подробнее</button>
+                        </div>
+                        <div class="flag-bot-in1">
+                            <p class="fb-in">ИТАЛИЯ</p>
+                            <button class="fb-btn">Подробнее</button>
+                        </div>
+                    </div>
+                    <div class="flags">
+                        <img class="flag" src="img/hor.png">
+                        <img class="flag" src="img/cher.png">
+                        <img class="flag" src="img/clov.png">
+                        <img class="flag" src="img/ital.png">
+                    </div>
+                    <div class="flag-subtitle">
+                        <p class="flag-subtitle-text">
+                            Обеспечиваем отдых с повышенной надежностью и персонализированным сервисом и в других странах
+                        </p>
+                        <p class="flag-subtitle-left">
+                            ОТДЫХ С VALANTA ОСТАНЕТСЯ ЯРКИМ ВОСПОМИНАНИЕМ У ВАС В ПАМЯТИ НАВСЕГДА
+                        </p>
+                    </div>
+                </div>
+                <div class="ex">
+                    <p class="ex-title">ЭКСКЛЮЗИВНЫЙ КОНСЬЕРЖ СЕРВИС ОТ VALANTA TRAVEL COMPANY</p>
+                    <div class="line13"></div>
+                    <div class="sub-ex-im">
+                    <div class="sub-ex">
+                        <p class="sub-ex-in">Мы не ограничиваемся стандартным набором услуг туроператора, потому что главная цель – превратить отдых клиентов в незабываемый опыт. </p>
+                        <p class="sub-ex-in">Поэтому стремимся обеспечить максимальный комфорт и удобство по всем направлениям. Всегда даем больше, чтобы приятно удивить клиентов. </p>
+                    </div>
+                    <img class="ex-img" src="img/ex.png">
+                    </div>
+                </div>
+                <div class="sub-bottom">
+                    <p class="sb-title">предоставляем консьерж-услуги любого уровня сложности: </p>
+                </div>
+            <div class="sb">
+            <div class="sb1">
+                <div class="sb-bot">
+                    <div class="sb-bot-in">
+                            <p class="sb-number">/01</p>
+                            <p class="sb-text">Подбор и бронирование отелей и вилл самого высокого уровня</p>
+                    </div>
+                    <div class="line14"></div>
+                </div>
+                <div class="sb-bot">
+                    <div class="sb-bot-in">
+                            <p class="sb-number">/02</p>
+                            <p class="sb-text">Подбор и бронирование авиабилетов</p>
+                    </div>
+                    <div class="line14"></div>
+                </div>
+                <div class="sb-bot">
+                    <div class="sb-bot-in">
+                            <p class="sb-number">/03</p>
+                            <p class="sb-text">Аренда самолетов бизнес-авиации  </p>
+                    </div>
+                    <div class="line14"></div>
+                </div>
+                <div class="sb-bot">
+                    <div class="sb-bot-in">
+                            <p class="sb-number">/04</p>
+                            <p class="sb-text">Организация трансферов</p>
+                    </div>
+                    <div class="line14"></div>
+                </div>
+                <div class="sb-bot">
+                    <div class="sb-bot-in">
+                            <p class="sb-number">/05</p>
+                            <p class="sb-text">Аренда яхт</p>
+                    </div>
+                    <div class="line14"></div>
+                </div>
+            </div>
+            <div class="sb1">
+                <div class="sb-bot">
+                    <div class="sb-bot-in">
+                            <p class="sb-number">/06</p>
+                            <p class="sb-text">Заказ столиков в ресторанах и даже рекомендации по блюдам</p>
+                    </div>
+                    <div class="line14"></div>
+                </div>
+                <div class="sb-bot">
+                    <div class="sb-bot-in">
+                            <p class="sb-number">/07</p>
+                            <p class="sb-text">Покупка билетов на концерты и мероприятия</p>
+                    </div>
+                    <div class="line14"></div>
+                </div>
+                <div class="sb-bot">
+                    <div class="sb-bot-in">
+                            <p class="sb-number">/08</p>
+                            <p class="sb-text">Индивидуальные экскурсии </p>
+                    </div>
+                    <div class="line14"></div>
+                </div>
+                <div class="sb-bot">
+                    <div class="sb-bot-in">
+                            <p class="sb-number">/09</p>
+                            <p class="sb-text">Организация корпоративных и личных мероприятий за границей</p>
+                    </div>
+                    <div class="line14"></div>
+                </div>
+            </div>
+            </div>
+            </div>
+                <div class="valanta-numbers">
+                         <div class="vn-header">
+                         <div class="vn-title">
+                    <p class="vn-title-b">VALANTA TRAVEL Company</p>
+                    <p class="vn-title-red"> В ЦИФРАХ</p>
+                    <p class="vn-subtitle">На случай, если вы доверяете только сухим фактам:</p>
+                          </div>
+                    <img class="vn-img" src="img/people.png">
+                        </div>
+                        <div class="cards">
+                            <div class="card">
+                                <p class="card-number">18</p>
+                                <div class="line15"></div>
+                                <p class="card-text">лет компания успешно обеспечивает премиум-отдых своим клиентам</p>
+                            </div>
+                            <div class="card">
+                                <p class="card-number">8</p>
+                                <div class="line15"></div>
+                                <p class="card-text">несменных профессионалов в команде</p>
+                            </div>
+                            <div class="card">
+                                <p class="card-number">100+</p>
+                                <div class="line15"></div>
+                                <p class="card-text">уникальных посещенных стран</p>
+                            </div>
+                            <div class="card">
+                                <p class="card-number">4</p>
+                                <div class="line15"></div>
+                                <p class="card-text">основных направления, о которых мы знаем все, и не менее ответственный подход в работе с другими странами</p>
+                            </div>
+                            <div class="card">
+                                <p class="card-number">30</p>
+                                <div class="line15"></div>
+                                <p class="card-text">эксклюзивных контрактов с мировыми отельными цепочками</p>
+                            </div>
+                            <div class="card">
+                                <p class="card-number">с 2015</p>
+                                <div class="line15"></div>
+                                <p class="card-text">года мы – единственная в Украине компания, имеющая официальный статус Preferred Partner in Ukraine хорватского отельного холдинга Maistra Hospitality Group</p>
+                            </div>
+                            
+                        </div>
+                 </div>
+                 <div class="company">
+                        <div class="company-text">
+                            <p class="company-title">МЫ ГОРДИМСЯ ПАРТНЕРСТВОМ С ТАКИМИ КОМПАНИЯМИ</p>
+                            <p class="company-subtitle">Налаженное сотрудничество и хорошие отношения с отельными домами – ключевая задача для туроператора.<br><br>
+                                Это наша сильная сторона, благодаря которой мы обеспечиваем клиентам решение любых задач во время отдыха и удовлетворение даже самых требовательных запросов.</p>
+                        </div>
+                        <div class="company-bot">
+                            <div class="c-company">
+                                <div class="comp">
+                                    <div class="red-line"></div>
+                                    <img class="comp-img" src="img/maistra.png">
+                                </div>
+                                <div class="comp">
+                                    <div class="red-line"></div>
+                                    <img class="comp-img" src="img/maistra.png">
+                                </div>
+                                <div class="comp">
+                                    <div class="red-line"></div>
+                                    <img class="comp-img" src="img/maistra.png">
+                                </div>
+                                <div class="comp">
+                                    <div class="red-line"></div>
+                                    <img class="comp-img" src="img/maistra.png">
+                                </div>
+                                <div class="comp">
+                                    <div class="red-line"></div>
+                                    <img class="comp-img" src="img/maistra.png">
+                                </div>
+                                <div class="comp">
+                                    <div class="red-line"></div>
+                                    <img class="comp-img" src="img/maistra.png">
+                                </div>
+                                <div class="comp">
+                                    <div class="red-line"></div>
+                                    <img class="comp-img" src="img/maistra.png">
+                                </div>
+                            </div>
+                        </div>
+                 </div>
+                 <div class="travel">
+                    <p class="travel-top">что такое путешествия 
+                        с valanta travel company?</p>
+                     <p class="travel-text">travel</p>
+                 </div>
+                 <div class="travel-bot"></div>
+                 <div class="travel-card">
+                     <div class="card-icons"><svg width="61" height="366" viewBox="0 0 61 366" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="29.7031" y="20.1348" width="0.993266" height="316.852" fill="#C4C4C4"/>
+                        <path d="M59.7633 22.8478C60.0391 24.0362 60.2398 25.2524 60.3604 26.4912L59.7632 26.5493C59.85 27.4409 59.8944 28.3446 59.8944 29.2585C59.8944 30.1725 59.85 31.0762 59.7632 31.9677L60.3604 32.0259C60.2398 33.2647 60.0391 34.4809 59.7633 35.6693L59.1788 35.5337C58.7661 37.3122 58.1817 39.0276 57.4432 40.6625L57.99 40.9094C57.4816 42.035 56.9018 43.1232 56.2562 44.1684L55.7457 43.8531C54.7944 45.3933 53.6969 46.8388 52.4717 48.1715L52.9133 48.5775C52.0812 49.4826 51.1915 50.3365 50.2499 51.1338L49.8622 50.6759C48.4875 51.8398 46.9998 52.8807 45.417 53.7809L45.7136 54.3025C44.6487 54.9081 43.5416 55.4514 42.3978 55.927L42.1674 55.373C40.5146 56.0602 38.7834 56.6035 36.9902 56.9865L37.1155 57.5732C35.9237 57.8278 34.7052 58.0129 33.4647 58.1241L33.4111 57.5265C32.5174 57.6066 31.6119 57.6476 30.6964 57.6476C29.7809 57.6476 28.8754 57.6066 27.9817 57.5265L27.9281 58.1241C26.6876 58.0129 25.4691 57.8278 24.2773 57.5732L24.4027 56.9865C22.6095 56.6035 20.8782 56.0602 19.2254 55.373L18.9951 55.927C17.8512 55.4514 16.7442 54.9081 15.6792 54.3025L15.9759 53.7809C14.3931 52.8807 12.9053 51.8398 11.5307 50.6759L11.143 51.1338C10.2013 50.3365 9.31161 49.4826 8.47949 48.5775L8.92118 48.1715C7.69598 46.8389 6.59845 45.3933 5.64711 43.8531L5.13664 44.1684C4.491 43.1232 3.9112 42.035 3.4028 40.9095L3.94961 40.6625C3.21116 39.0276 2.62672 37.3122 2.21403 35.5337L1.62956 35.6693C1.35378 34.4809 1.15304 33.2647 1.03245 32.0259L1.62963 31.9677C1.54284 31.0762 1.49844 30.1725 1.49844 29.2585C1.49844 28.3446 1.54284 27.4409 1.62962 26.5494L1.03245 26.4912C1.15304 25.2524 1.35378 24.0362 1.62956 22.8478L2.21403 22.9834C2.62672 21.2049 3.21115 19.4895 3.94961 17.8546L3.4028 17.6076C3.91119 16.4821 4.491 15.3939 5.13664 14.3486L5.64711 14.664C6.59845 13.1238 7.69597 11.6782 8.92118 10.3456L8.47949 9.93954C9.31161 9.03448 10.2013 8.18057 11.143 7.38326L11.5307 7.84116C12.9053 6.67727 14.3931 5.63637 15.9759 4.73617L15.6792 4.21462C16.7442 3.60894 17.8512 3.06571 18.995 2.59009L19.2254 3.14411C20.8782 2.45687 22.6095 1.91362 24.4027 1.53061L24.2773 0.943847C25.4691 0.689299 26.6876 0.504149 27.9281 0.392972L27.9817 0.990577C28.8754 0.910482 29.7809 0.869531 30.6964 0.869531C31.6119 0.869531 32.5174 0.910482 33.4111 0.990577L33.4647 0.392972C34.7052 0.504148 35.9237 0.689298 37.1155 0.943847L36.9902 1.53061C38.7833 1.91362 40.5146 2.45687 42.1674 3.14411L42.3978 2.59009C43.5416 3.06571 44.6487 3.60894 45.7136 4.21462L45.417 4.73616C46.9998 5.63637 48.4875 6.67727 49.8622 7.84116L50.2499 7.38325C51.1915 8.18056 52.0812 9.03448 52.9133 9.93954L52.4717 10.3456C53.6969 11.6782 54.7944 13.1237 55.7457 14.6639L56.2562 14.3486C56.9018 15.3939 57.4816 16.4821 57.99 17.6076L57.4432 17.8546C58.1817 19.4895 58.7661 21.2049 59.1788 22.9834L59.7633 22.8478Z" fill="white" stroke="#969696" stroke-width="1.2" stroke-dasharray="6 4"/>
+                        <g clip-path="url(#clip0_0_1)">
+                        <path d="M27.9436 38.4229L26.6074 37.7368L26.9968 40.5334C27.1328 40.5861 27.2739 40.6119 27.4135 40.6119C27.834 40.6119 28.2396 40.3821 28.4449 39.9824C28.7371 39.4134 28.5127 38.7152 27.9436 38.4229V38.4229Z" fill="#969696"/>
+                        <path d="M28.2787 24.5679L28.8348 24.4434L32.196 22.4177C32.4381 22.2719 32.7133 22.1918 32.995 22.1828C32.8202 21.9965 32.6708 21.7847 32.5531 21.5523L30.7522 22.8154H28.3826H27.4145C27.3422 22.8154 27.2718 22.8231 27.2038 22.8374C27.1898 22.8367 27.1759 22.8356 27.1618 22.8356C27.1082 22.8356 27.054 22.8405 26.9995 22.8507L24.4318 23.3284C23.8266 22.6326 23.2126 21.9269 22.6047 21.228L24.3843 17.7554C24.6413 17.2541 24.4431 16.6395 23.9418 16.3825C23.4405 16.1255 22.8259 16.3237 22.5689 16.825L20.4746 20.9117C20.2845 21.2826 20.3392 21.7319 20.6127 22.0463C21.1546 22.6693 22.4249 24.1295 22.9995 24.7901L24.329 31.9358C23.9568 32.4621 21.6839 35.6766 21.3462 36.1542C20.9392 36.7296 21.137 37.5321 21.7628 37.8534L23.0265 38.5023L22.7793 36.7266C22.7828 36.6747 22.5747 35.9788 23.1374 35.3654L26.0938 32.5108L23.6546 35.7899C23.4762 36.0329 23.3998 36.3359 23.4413 36.6344L24.2262 42.2719C24.3139 42.902 24.8959 43.3474 25.5327 43.2589C26.166 43.1707 26.6079 42.5858 26.5197 41.9525L25.7996 36.7806L29.135 32.2531C29.5484 31.6921 29.6991 30.9797 29.5483 30.2994L28.2787 24.5679Z" fill="#969696"/>
+                        <path d="M32.0197 39.9824C32.2251 40.3822 32.6306 40.6119 33.0511 40.6119C33.1906 40.6119 33.3318 40.5861 33.4678 40.5334L33.8571 37.7368L32.521 38.4229C31.952 38.7152 31.7275 39.4134 32.0197 39.9824V39.9824Z" fill="#969696"/>
+                        <path d="M34.9729 22.4057C35.1491 22.4057 35.3282 22.3831 35.5067 22.3359C36.6168 22.0418 37.2783 20.9036 36.9843 19.7935C36.7375 18.8618 35.896 18.2461 34.9757 18.2461C34.7995 18.2461 34.6203 18.2686 34.4419 18.3159C33.3319 18.6099 32.6703 19.7482 32.9644 20.8583C33.2111 21.79 34.0525 22.4057 34.9729 22.4057V22.4057Z" fill="#969696"/>
+                        <path d="M41.6393 18.6514C41.0998 18.5296 40.564 18.8755 40.4231 19.4103L39.4351 23.1599C38.8972 23.2268 37.3938 23.4136 36.8449 23.4818C36.8395 23.4805 33.41 22.8163 33.0476 22.8163C32.869 22.8163 32.6882 22.863 32.524 22.9619L29.0166 25.0537L29.4635 27.0441L29.6821 26.9951C29.7891 26.9711 29.8916 26.9301 29.9856 26.8734L31.958 25.6848L30.9146 30.313C30.7635 30.9835 30.9109 31.6865 31.3187 32.2397L34.6655 36.7808L33.9491 41.9258C33.862 42.5513 34.2776 43.1505 34.9006 43.2542C34.9655 43.265 35.03 43.2702 35.0936 43.2702C35.6621 43.2702 36.1582 42.8511 36.2388 42.272L37.0238 36.6345C37.0653 36.336 36.9888 36.033 36.8105 35.79L34.1947 32.2224L37.3276 35.3655C37.64 35.6891 37.7674 36.1232 37.7123 36.5369L37.6858 36.7267L37.4385 38.5024L38.7022 37.8535C39.0008 37.7002 39.2182 37.4249 39.2981 37.099C39.3781 36.773 39.3126 36.4284 39.1189 36.1543L36.1141 31.5747L37.3167 25.4788C38.0781 25.3842 38.4855 25.3335 40.3713 25.0992C40.7849 25.0478 41.1257 24.7499 41.2318 24.3469L42.4019 19.9064C42.5485 19.3497 42.2056 18.7792 41.6393 18.6514V18.6514Z" fill="#969696"/>
+                        <path d="M25.949 22.3995C26.9245 22.4687 27.8438 21.8399 28.1039 20.8578C28.398 19.7477 27.7364 18.6095 26.6263 18.3154C25.5163 18.0214 24.378 18.6829 24.084 19.793C23.7494 21.0564 24.6483 22.3072 25.949 22.3995V22.3995Z" fill="#969696"/>
+                        </g>
+                        <path d="M59.7633 176.804C60.0391 177.992 60.2398 179.208 60.3604 180.447L59.7632 180.505C59.85 181.397 59.8944 182.301 59.8944 183.215C59.8944 184.129 59.85 185.032 59.7632 185.924L60.3604 185.982C60.2398 187.221 60.0391 188.437 59.7633 189.625L59.1788 189.49C58.7661 191.268 58.1817 192.984 57.4432 194.619L57.99 194.866C57.4816 195.991 56.9018 197.079 56.2562 198.124L55.7457 197.809C54.7944 199.349 53.6969 200.795 52.4717 202.128L52.9133 202.534C52.0812 203.439 51.1915 204.293 50.2499 205.09L49.8622 204.632C48.4875 205.796 46.9998 206.837 45.417 207.737L45.7136 208.259C44.6487 208.864 43.5416 209.407 42.3978 209.883L42.1674 209.329C40.5146 210.016 38.7834 210.56 36.9902 210.943L37.1155 211.529C35.9237 211.784 34.7052 211.969 33.4647 212.08L33.4111 211.483C32.5174 211.563 31.6119 211.604 30.6964 211.604C29.7809 211.604 28.8754 211.563 27.9817 211.483L27.9281 212.08C26.6876 211.969 25.4691 211.784 24.2773 211.529L24.4027 210.943C22.6095 210.56 20.8782 210.016 19.2254 209.329L18.9951 209.883C17.8512 209.407 16.7442 208.864 15.6792 208.259L15.9759 207.737C14.3931 206.837 12.9053 205.796 11.5307 204.632L11.143 205.09C10.2013 204.293 9.31161 203.439 8.47949 202.534L8.92118 202.128C7.69598 200.795 6.59845 199.349 5.64711 197.809L5.13664 198.125C4.491 197.079 3.9112 195.991 3.4028 194.866L3.94961 194.619C3.21116 192.984 2.62672 191.268 2.21403 189.49L1.62956 189.625C1.35378 188.437 1.15304 187.221 1.03245 185.982L1.62963 185.924C1.54284 185.032 1.49844 184.129 1.49844 183.215C1.49844 182.301 1.54284 181.397 1.62962 180.505L1.03245 180.447C1.15304 179.208 1.35378 177.992 1.62956 176.804L2.21403 176.939C2.62672 175.161 3.21115 173.446 3.94961 171.811L3.4028 171.564C3.91119 170.438 4.491 169.35 5.13664 168.305L5.64711 168.62C6.59845 167.08 7.69597 165.634 8.92118 164.302L8.47949 163.896C9.31161 162.991 10.2013 162.137 11.143 161.339L11.5307 161.797C12.9053 160.633 14.3931 159.592 15.9759 158.692L15.6792 158.171C16.7442 157.565 17.8512 157.022 18.995 156.546L19.2254 157.1C20.8782 156.413 22.6095 155.87 24.4027 155.487L24.2773 154.9C25.4691 154.645 26.6876 154.46 27.9281 154.349L27.9817 154.947C28.8754 154.867 29.7809 154.826 30.6964 154.826C31.6119 154.826 32.5174 154.867 33.4111 154.947L33.4647 154.349C34.7052 154.46 35.9237 154.645 37.1155 154.9L36.9902 155.487C38.7833 155.87 40.5146 156.413 42.1674 157.1L42.3978 156.546C43.5416 157.022 44.6487 157.565 45.7136 158.171L45.417 158.692C46.9998 159.592 48.4875 160.633 49.8622 161.797L50.2499 161.339C51.1915 162.137 52.0812 162.991 52.9133 163.896L52.4717 164.302C53.6969 165.634 54.7944 167.08 55.7457 168.62L56.2562 168.305C56.9018 169.35 57.4816 170.438 57.99 171.564L57.4432 171.811C58.1817 173.446 58.7661 175.161 59.1788 176.939L59.7633 176.804Z" fill="white" stroke="#969696" stroke-width="1.2" stroke-dasharray="6 4"/>
+                        <g clip-path="url(#clip1_0_1)">
+                        <path d="M26.3289 190.338C25.4528 191.174 24.2668 191.689 22.9629 191.689C21.659 191.689 20.4729 191.174 19.5969 190.338C17.9711 191.427 16.8984 193.28 16.8984 195.38V196.435C16.8984 196.871 17.2526 197.226 17.6895 197.226H28.2363C28.6732 197.226 29.0273 196.871 29.0273 196.435V195.38C29.0273 193.28 27.9547 191.427 26.3289 190.338V190.338Z" fill="#969696"/>
+                        <path d="M22.9629 190.106C21.1455 190.106 19.667 188.628 19.667 186.811C19.667 184.993 21.1455 183.515 22.9629 183.515C24.7803 183.515 26.2588 184.993 26.2588 186.811C26.2588 188.628 24.7803 190.106 22.9629 190.106Z" fill="#969696"/>
+                        <path d="M35.7764 177.608C36.3589 177.608 36.8311 177.136 36.8311 176.554C36.8311 175.971 36.3589 175.499 35.7764 175.499C35.1939 175.499 34.7217 175.971 34.7217 176.554C34.7217 177.136 35.1939 177.608 35.7764 177.608Z" fill="#969696"/>
+                        <path d="M35.7761 179.19C34.4509 179.19 33.3305 180.084 32.9854 181.3H38.5669C38.2217 180.084 37.1013 179.19 35.7761 179.19Z" fill="#969696"/>
+                        <path d="M43.3346 174.575C42.5384 173.201 41.0537 172.413 39.5031 172.49C38.7932 171.113 37.3673 170.226 35.7762 170.226C34.1851 170.226 32.7591 171.113 32.0493 172.49C30.4972 172.413 29.0137 173.201 28.2177 174.575C27.4214 175.95 27.4788 177.625 28.3199 178.927C27.4788 180.229 27.4214 181.904 28.2177 183.278C29.0138 184.653 30.4973 185.44 32.0493 185.364C32.7591 186.741 34.1851 187.628 35.7762 187.628C37.3673 187.628 38.7933 186.741 39.5031 185.364C39.5721 185.367 39.6409 185.369 39.7096 185.369C41.1847 185.369 42.574 184.591 43.3346 183.278C44.1309 181.904 44.0735 180.228 43.2324 178.927C44.0735 177.625 44.1309 175.95 43.3346 174.575V174.575ZM39.4676 182.882H32.0847C31.6479 182.882 31.2937 182.528 31.2937 182.091C31.2937 180.381 32.2567 178.892 33.6686 178.136C33.3366 177.695 33.1394 177.147 33.1394 176.554C33.1394 175.1 34.3223 173.917 35.7762 173.917C37.23 173.917 38.4129 175.1 38.4129 176.554C38.4129 177.147 38.2158 177.695 37.8837 178.136C39.2956 178.892 40.2586 180.381 40.2586 182.091C40.2586 182.528 39.9044 182.882 39.4676 182.882Z" fill="#969696"/>
+                        <path d="M31.1367 194.747C31.5736 194.747 31.9277 194.393 31.9277 193.956C31.9277 193.519 31.5736 193.165 31.1367 193.165C30.6999 193.165 30.3457 193.519 30.3457 193.956C30.3457 194.393 30.6999 194.747 31.1367 194.747Z" fill="#969696"/>
+                        <path d="M35.7246 193.956C34.4161 193.956 33.3516 192.892 33.3516 191.583C33.3516 190.275 34.4161 189.21 35.7246 189.21C37.0331 189.21 38.0977 190.275 38.0977 191.583C38.0977 192.892 37.0331 193.956 35.7246 193.956Z" fill="#969696"/>
+                        </g>
+                        <path d="M59.7633 329.767C60.0391 330.955 60.2398 332.171 60.3604 333.41L59.7632 333.468C59.85 334.36 59.8944 335.264 59.8944 336.177C59.8944 337.091 59.85 337.995 59.7632 338.887L60.3604 338.945C60.2398 340.184 60.0391 341.4 59.7633 342.588L59.1788 342.453C58.7661 344.231 58.1817 345.947 57.4432 347.581L57.99 347.828C57.4816 348.954 56.9018 350.042 56.2562 351.087L55.7457 350.772C54.7944 352.312 53.6969 353.758 52.4717 355.09L52.9133 355.496C52.0812 356.402 51.1915 357.255 50.2499 358.053L49.8622 357.595C48.4875 358.759 46.9998 359.8 45.417 360.7L45.7136 361.221C44.6487 361.827 43.5416 362.37 42.3978 362.846L42.1674 362.292C40.5146 362.979 38.7834 363.522 36.9902 363.905L37.1155 364.492C35.9237 364.747 34.7052 364.932 33.4647 365.043L33.4111 364.445C32.5174 364.526 31.6119 364.567 30.6964 364.567C29.7809 364.567 28.8754 364.526 27.9817 364.445L27.9281 365.043C26.6876 364.932 25.4691 364.747 24.2773 364.492L24.4027 363.905C22.6095 363.522 20.8782 362.979 19.2254 362.292L18.9951 362.846C17.8512 362.37 16.7442 361.827 15.6792 361.221L15.9759 360.7C14.3931 359.8 12.9053 358.759 11.5307 357.595L11.143 358.053C10.2013 357.255 9.31161 356.402 8.47949 355.496L8.92118 355.09C7.69598 353.758 6.59845 352.312 5.64711 350.772L5.13664 351.087C4.491 350.042 3.9112 348.954 3.4028 347.828L3.94961 347.581C3.21116 345.947 2.62672 344.231 2.21403 342.453L1.62956 342.588C1.35378 341.4 1.15304 340.184 1.03245 338.945L1.62963 338.887C1.54284 337.995 1.49844 337.091 1.49844 336.177C1.49844 335.264 1.54284 334.36 1.62962 333.468L1.03245 333.41C1.15304 332.171 1.35378 330.955 1.62956 329.767L2.21403 329.902C2.62672 328.124 3.21115 326.408 3.94961 324.774L3.4028 324.527C3.91119 323.401 4.491 322.313 5.13664 321.268L5.64711 321.583C6.59845 320.043 7.69597 318.597 8.92118 317.265L8.47949 316.858C9.31161 315.953 10.2013 315.1 11.143 314.302L11.5307 314.76C12.9053 313.596 14.3931 312.555 15.9759 311.655L15.6792 311.134C16.7442 310.528 17.8512 309.985 18.995 309.509L19.2254 310.063C20.8782 309.376 22.6095 308.833 24.4027 308.45L24.2773 307.863C25.4691 307.608 26.6876 307.423 27.9281 307.312L27.9817 307.91C28.8754 307.829 29.7809 307.788 30.6964 307.788C31.6119 307.788 32.5174 307.829 33.4111 307.91L33.4647 307.312C34.7052 307.423 35.9237 307.608 37.1155 307.863L36.9902 308.45C38.7833 308.833 40.5146 309.376 42.1674 310.063L42.3978 309.509C43.5416 309.985 44.6487 310.528 45.7136 311.134L45.417 311.655C46.9998 312.555 48.4875 313.596 49.8622 314.76L50.2499 314.302C51.1915 315.1 52.0812 315.953 52.9133 316.858L52.4717 317.265C53.6969 318.597 54.7944 320.043 55.7457 321.583L56.2562 321.268C56.9018 322.313 57.4816 323.401 57.99 324.527L57.4432 324.774C58.1817 326.408 58.7661 328.124 59.1788 329.902L59.7633 329.767Z" fill="white" stroke="#969696" stroke-width="1.2" stroke-dasharray="6 4"/>
+                        <g clip-path="url(#clip2_0_1)">
+                        <path d="M35.9148 335.507C35.8515 335.239 35.6553 335.025 35.395 334.938L31.514 333.644L34.2702 328.132C34.4433 327.785 34.3397 327.363 34.0253 327.136C33.7094 326.91 33.2768 326.944 33.0033 327.219L25.0932 335.129C24.8993 335.323 24.8197 335.603 24.8823 335.87C24.9456 336.137 25.1419 336.352 25.4022 336.438L29.2831 337.732L26.5269 343.244C26.3539 343.591 26.4574 344.013 26.7718 344.24C27.0867 344.466 27.5184 344.433 27.7938 344.158L35.7039 336.247C35.8978 336.053 35.9774 335.773 35.9148 335.507Z" fill="#969696"/>
+                        <path d="M30.3984 322.188C26.3838 322.188 22.5917 324.056 20.0625 327.068V326.196C20.0625 325.759 19.7087 325.405 19.2715 325.405C18.8343 325.405 18.4805 325.759 18.4805 326.196V329.557C18.4805 330.311 19.4555 330.42 19.2715 330.348C19.2877 330.348 19.3039 330.347 19.3202 330.346L22.4842 330.15C22.9207 330.123 23.2521 329.747 23.225 329.312C23.198 328.876 22.8172 328.548 22.3869 328.571L20.7841 328.671C23.0042 325.651 26.5963 323.771 30.3984 323.771C36.9413 323.771 42.3164 329.146 42.3164 335.688C42.3164 336.126 42.6702 336.479 43.1074 336.479C43.5446 336.479 43.8984 336.126 43.8984 335.688C43.8984 328.273 37.8134 322.188 30.3984 322.188Z" fill="#969696"/>
+                        <path d="M41.4767 341.031L38.3127 341.227C37.8762 341.254 37.5448 341.63 37.5718 342.065C37.5989 342.501 37.9882 342.833 38.41 342.806L40.0128 342.706C37.7927 345.726 34.2006 347.606 30.3984 347.606C23.8556 347.606 18.4805 342.231 18.4805 335.688C18.4805 335.251 18.1267 334.897 17.6895 334.897C17.2522 334.897 16.8984 335.251 16.8984 335.688C16.8984 343.103 22.9835 349.188 30.3984 349.188C34.4131 349.188 38.2052 347.321 40.7344 344.309V345.181C40.7344 345.618 41.0882 345.972 41.5254 345.972C41.9626 345.972 42.3164 345.618 42.3164 345.181V341.82C42.3164 341.386 41.8998 341.007 41.4767 341.031Z" fill="#969696"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_0_1">
+                        <rect width="27" height="27" fill="white" transform="translate(17.8984 16.2695)"/>
+                        </clipPath>
+                        <clipPath id="clip1_0_1">
+                        <rect width="27" height="27" fill="white" transform="translate(16.8984 170.226)"/>
+                        </clipPath>
+                        <clipPath id="clip2_0_1">
+                        <rect width="27" height="27" fill="white" transform="translate(16.8984 322.188)"/>
+                        </clipPath>
+                        </defs>
+                        </svg>                        
+                        </div>
+                     <div class="card-text">
+                        <p class="card-text-in">Абсолютно новый подход к организации путешествий. Мы помогаем реализовать путешествие согласно стилю жизни и предпочтениям клиента.</p>
+                        <p class="card-text-in">Сервис и дополнительные услуги, благодаря которым 100% времени вы уделите именно отдыху, а не решению мелких задач.</p>
+                        <p class="card-text-in">Комфорт премиум-класса за оптимальную стоимость, благодаря специальным условиям, которые дают нам партнеры.  </p>
+                     </div>
+                     <div class="card-icons"><svg width="61" height="366" viewBox="0 0 61 366" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="29.7031" y="20.1348" width="0.993266" height="316.852" fill="#C4C4C4"/>
+                        <path d="M59.7633 22.8478C60.0391 24.0362 60.2398 25.2524 60.3604 26.4912L59.7632 26.5493C59.85 27.4409 59.8944 28.3446 59.8944 29.2585C59.8944 30.1725 59.85 31.0762 59.7632 31.9677L60.3604 32.0259C60.2398 33.2647 60.0391 34.4809 59.7633 35.6693L59.1788 35.5337C58.7661 37.3122 58.1817 39.0276 57.4432 40.6625L57.99 40.9094C57.4816 42.035 56.9018 43.1232 56.2562 44.1684L55.7457 43.8531C54.7944 45.3933 53.6969 46.8388 52.4717 48.1715L52.9133 48.5775C52.0812 49.4826 51.1915 50.3365 50.2499 51.1338L49.8622 50.6759C48.4875 51.8398 46.9998 52.8807 45.417 53.7809L45.7136 54.3025C44.6487 54.9081 43.5416 55.4514 42.3978 55.927L42.1674 55.373C40.5146 56.0602 38.7834 56.6035 36.9902 56.9865L37.1155 57.5732C35.9237 57.8278 34.7052 58.0129 33.4647 58.1241L33.4111 57.5265C32.5174 57.6066 31.6119 57.6476 30.6964 57.6476C29.7809 57.6476 28.8754 57.6066 27.9817 57.5265L27.9281 58.1241C26.6876 58.0129 25.4691 57.8278 24.2773 57.5732L24.4027 56.9865C22.6095 56.6035 20.8782 56.0602 19.2254 55.373L18.9951 55.927C17.8512 55.4514 16.7442 54.9081 15.6792 54.3025L15.9759 53.7809C14.3931 52.8807 12.9053 51.8398 11.5307 50.6759L11.143 51.1338C10.2013 50.3365 9.31161 49.4826 8.47949 48.5775L8.92118 48.1715C7.69598 46.8389 6.59845 45.3933 5.64711 43.8531L5.13664 44.1684C4.491 43.1232 3.9112 42.035 3.4028 40.9095L3.94961 40.6625C3.21116 39.0276 2.62672 37.3122 2.21403 35.5337L1.62956 35.6693C1.35378 34.4809 1.15304 33.2647 1.03245 32.0259L1.62963 31.9677C1.54284 31.0762 1.49844 30.1725 1.49844 29.2585C1.49844 28.3446 1.54284 27.4409 1.62962 26.5494L1.03245 26.4912C1.15304 25.2524 1.35378 24.0362 1.62956 22.8478L2.21403 22.9834C2.62672 21.2049 3.21115 19.4895 3.94961 17.8546L3.4028 17.6076C3.91119 16.4821 4.491 15.3939 5.13664 14.3486L5.64711 14.664C6.59845 13.1238 7.69597 11.6782 8.92118 10.3456L8.47949 9.93954C9.31161 9.03448 10.2013 8.18057 11.143 7.38326L11.5307 7.84116C12.9053 6.67727 14.3931 5.63637 15.9759 4.73617L15.6792 4.21462C16.7442 3.60894 17.8512 3.06571 18.995 2.59009L19.2254 3.14411C20.8782 2.45687 22.6095 1.91362 24.4027 1.53061L24.2773 0.943847C25.4691 0.689299 26.6876 0.504149 27.9281 0.392972L27.9817 0.990577C28.8754 0.910482 29.7809 0.869531 30.6964 0.869531C31.6119 0.869531 32.5174 0.910482 33.4111 0.990577L33.4647 0.392972C34.7052 0.504148 35.9237 0.689298 37.1155 0.943847L36.9902 1.53061C38.7833 1.91362 40.5146 2.45687 42.1674 3.14411L42.3978 2.59009C43.5416 3.06571 44.6487 3.60894 45.7136 4.21462L45.417 4.73616C46.9998 5.63637 48.4875 6.67727 49.8622 7.84116L50.2499 7.38325C51.1915 8.18056 52.0812 9.03448 52.9133 9.93954L52.4717 10.3456C53.6969 11.6782 54.7944 13.1237 55.7457 14.6639L56.2562 14.3486C56.9018 15.3939 57.4816 16.4821 57.99 17.6076L57.4432 17.8546C58.1817 19.4895 58.7661 21.2049 59.1788 22.9834L59.7633 22.8478Z" fill="white" stroke="#969696" stroke-width="1.2" stroke-dasharray="6 4"/>
+                        <g clip-path="url(#clip0_0_1)">
+                        <path d="M27.9436 38.4229L26.6074 37.7368L26.9968 40.5334C27.1328 40.5861 27.2739 40.6119 27.4135 40.6119C27.834 40.6119 28.2396 40.3821 28.4449 39.9824C28.7371 39.4134 28.5127 38.7152 27.9436 38.4229V38.4229Z" fill="#969696"/>
+                        <path d="M28.2787 24.5679L28.8348 24.4434L32.196 22.4177C32.4381 22.2719 32.7133 22.1918 32.995 22.1828C32.8202 21.9965 32.6708 21.7847 32.5531 21.5523L30.7522 22.8154H28.3826H27.4145C27.3422 22.8154 27.2718 22.8231 27.2038 22.8374C27.1898 22.8367 27.1759 22.8356 27.1618 22.8356C27.1082 22.8356 27.054 22.8405 26.9995 22.8507L24.4318 23.3284C23.8266 22.6326 23.2126 21.9269 22.6047 21.228L24.3843 17.7554C24.6413 17.2541 24.4431 16.6395 23.9418 16.3825C23.4405 16.1255 22.8259 16.3237 22.5689 16.825L20.4746 20.9117C20.2845 21.2826 20.3392 21.7319 20.6127 22.0463C21.1546 22.6693 22.4249 24.1295 22.9995 24.7901L24.329 31.9358C23.9568 32.4621 21.6839 35.6766 21.3462 36.1542C20.9392 36.7296 21.137 37.5321 21.7628 37.8534L23.0265 38.5023L22.7793 36.7266C22.7828 36.6747 22.5747 35.9788 23.1374 35.3654L26.0938 32.5108L23.6546 35.7899C23.4762 36.0329 23.3998 36.3359 23.4413 36.6344L24.2262 42.2719C24.3139 42.902 24.8959 43.3474 25.5327 43.2589C26.166 43.1707 26.6079 42.5858 26.5197 41.9525L25.7996 36.7806L29.135 32.2531C29.5484 31.6921 29.6991 30.9797 29.5483 30.2994L28.2787 24.5679Z" fill="#969696"/>
+                        <path d="M32.0197 39.9824C32.2251 40.3822 32.6306 40.6119 33.0511 40.6119C33.1906 40.6119 33.3318 40.5861 33.4678 40.5334L33.8571 37.7368L32.521 38.4229C31.952 38.7152 31.7275 39.4134 32.0197 39.9824V39.9824Z" fill="#969696"/>
+                        <path d="M34.9729 22.4057C35.1491 22.4057 35.3282 22.3831 35.5067 22.3359C36.6168 22.0418 37.2783 20.9036 36.9843 19.7935C36.7375 18.8618 35.896 18.2461 34.9757 18.2461C34.7995 18.2461 34.6203 18.2686 34.4419 18.3159C33.3319 18.6099 32.6703 19.7482 32.9644 20.8583C33.2111 21.79 34.0525 22.4057 34.9729 22.4057V22.4057Z" fill="#969696"/>
+                        <path d="M41.6393 18.6514C41.0998 18.5296 40.564 18.8755 40.4231 19.4103L39.4351 23.1599C38.8972 23.2268 37.3938 23.4136 36.8449 23.4818C36.8395 23.4805 33.41 22.8163 33.0476 22.8163C32.869 22.8163 32.6882 22.863 32.524 22.9619L29.0166 25.0537L29.4635 27.0441L29.6821 26.9951C29.7891 26.9711 29.8916 26.9301 29.9856 26.8734L31.958 25.6848L30.9146 30.313C30.7635 30.9835 30.9109 31.6865 31.3187 32.2397L34.6655 36.7808L33.9491 41.9258C33.862 42.5513 34.2776 43.1505 34.9006 43.2542C34.9655 43.265 35.03 43.2702 35.0936 43.2702C35.6621 43.2702 36.1582 42.8511 36.2388 42.272L37.0238 36.6345C37.0653 36.336 36.9888 36.033 36.8105 35.79L34.1947 32.2224L37.3276 35.3655C37.64 35.6891 37.7674 36.1232 37.7123 36.5369L37.6858 36.7267L37.4385 38.5024L38.7022 37.8535C39.0008 37.7002 39.2182 37.4249 39.2981 37.099C39.3781 36.773 39.3126 36.4284 39.1189 36.1543L36.1141 31.5747L37.3167 25.4788C38.0781 25.3842 38.4855 25.3335 40.3713 25.0992C40.7849 25.0478 41.1257 24.7499 41.2318 24.3469L42.4019 19.9064C42.5485 19.3497 42.2056 18.7792 41.6393 18.6514V18.6514Z" fill="#969696"/>
+                        <path d="M25.949 22.3995C26.9245 22.4687 27.8438 21.8399 28.1039 20.8578C28.398 19.7477 27.7364 18.6095 26.6263 18.3154C25.5163 18.0214 24.378 18.6829 24.084 19.793C23.7494 21.0564 24.6483 22.3072 25.949 22.3995V22.3995Z" fill="#969696"/>
+                        </g>
+                        <path d="M59.7633 176.804C60.0391 177.992 60.2398 179.208 60.3604 180.447L59.7632 180.505C59.85 181.397 59.8944 182.301 59.8944 183.215C59.8944 184.129 59.85 185.032 59.7632 185.924L60.3604 185.982C60.2398 187.221 60.0391 188.437 59.7633 189.625L59.1788 189.49C58.7661 191.268 58.1817 192.984 57.4432 194.619L57.99 194.866C57.4816 195.991 56.9018 197.079 56.2562 198.124L55.7457 197.809C54.7944 199.349 53.6969 200.795 52.4717 202.128L52.9133 202.534C52.0812 203.439 51.1915 204.293 50.2499 205.09L49.8622 204.632C48.4875 205.796 46.9998 206.837 45.417 207.737L45.7136 208.259C44.6487 208.864 43.5416 209.407 42.3978 209.883L42.1674 209.329C40.5146 210.016 38.7834 210.56 36.9902 210.943L37.1155 211.529C35.9237 211.784 34.7052 211.969 33.4647 212.08L33.4111 211.483C32.5174 211.563 31.6119 211.604 30.6964 211.604C29.7809 211.604 28.8754 211.563 27.9817 211.483L27.9281 212.08C26.6876 211.969 25.4691 211.784 24.2773 211.529L24.4027 210.943C22.6095 210.56 20.8782 210.016 19.2254 209.329L18.9951 209.883C17.8512 209.407 16.7442 208.864 15.6792 208.259L15.9759 207.737C14.3931 206.837 12.9053 205.796 11.5307 204.632L11.143 205.09C10.2013 204.293 9.31161 203.439 8.47949 202.534L8.92118 202.128C7.69598 200.795 6.59845 199.349 5.64711 197.809L5.13664 198.125C4.491 197.079 3.9112 195.991 3.4028 194.866L3.94961 194.619C3.21116 192.984 2.62672 191.268 2.21403 189.49L1.62956 189.625C1.35378 188.437 1.15304 187.221 1.03245 185.982L1.62963 185.924C1.54284 185.032 1.49844 184.129 1.49844 183.215C1.49844 182.301 1.54284 181.397 1.62962 180.505L1.03245 180.447C1.15304 179.208 1.35378 177.992 1.62956 176.804L2.21403 176.939C2.62672 175.161 3.21115 173.446 3.94961 171.811L3.4028 171.564C3.91119 170.438 4.491 169.35 5.13664 168.305L5.64711 168.62C6.59845 167.08 7.69597 165.634 8.92118 164.302L8.47949 163.896C9.31161 162.991 10.2013 162.137 11.143 161.339L11.5307 161.797C12.9053 160.633 14.3931 159.592 15.9759 158.692L15.6792 158.171C16.7442 157.565 17.8512 157.022 18.995 156.546L19.2254 157.1C20.8782 156.413 22.6095 155.87 24.4027 155.487L24.2773 154.9C25.4691 154.645 26.6876 154.46 27.9281 154.349L27.9817 154.947C28.8754 154.867 29.7809 154.826 30.6964 154.826C31.6119 154.826 32.5174 154.867 33.4111 154.947L33.4647 154.349C34.7052 154.46 35.9237 154.645 37.1155 154.9L36.9902 155.487C38.7833 155.87 40.5146 156.413 42.1674 157.1L42.3978 156.546C43.5416 157.022 44.6487 157.565 45.7136 158.171L45.417 158.692C46.9998 159.592 48.4875 160.633 49.8622 161.797L50.2499 161.339C51.1915 162.137 52.0812 162.991 52.9133 163.896L52.4717 164.302C53.6969 165.634 54.7944 167.08 55.7457 168.62L56.2562 168.305C56.9018 169.35 57.4816 170.438 57.99 171.564L57.4432 171.811C58.1817 173.446 58.7661 175.161 59.1788 176.939L59.7633 176.804Z" fill="white" stroke="#969696" stroke-width="1.2" stroke-dasharray="6 4"/>
+                        <g clip-path="url(#clip1_0_1)">
+                        <path d="M26.3289 190.338C25.4528 191.174 24.2668 191.689 22.9629 191.689C21.659 191.689 20.4729 191.174 19.5969 190.338C17.9711 191.427 16.8984 193.28 16.8984 195.38V196.435C16.8984 196.871 17.2526 197.226 17.6895 197.226H28.2363C28.6732 197.226 29.0273 196.871 29.0273 196.435V195.38C29.0273 193.28 27.9547 191.427 26.3289 190.338V190.338Z" fill="#969696"/>
+                        <path d="M22.9629 190.106C21.1455 190.106 19.667 188.628 19.667 186.811C19.667 184.993 21.1455 183.515 22.9629 183.515C24.7803 183.515 26.2588 184.993 26.2588 186.811C26.2588 188.628 24.7803 190.106 22.9629 190.106Z" fill="#969696"/>
+                        <path d="M35.7764 177.608C36.3589 177.608 36.8311 177.136 36.8311 176.554C36.8311 175.971 36.3589 175.499 35.7764 175.499C35.1939 175.499 34.7217 175.971 34.7217 176.554C34.7217 177.136 35.1939 177.608 35.7764 177.608Z" fill="#969696"/>
+                        <path d="M35.7761 179.19C34.4509 179.19 33.3305 180.084 32.9854 181.3H38.5669C38.2217 180.084 37.1013 179.19 35.7761 179.19Z" fill="#969696"/>
+                        <path d="M43.3346 174.575C42.5384 173.201 41.0537 172.413 39.5031 172.49C38.7932 171.113 37.3673 170.226 35.7762 170.226C34.1851 170.226 32.7591 171.113 32.0493 172.49C30.4972 172.413 29.0137 173.201 28.2177 174.575C27.4214 175.95 27.4788 177.625 28.3199 178.927C27.4788 180.229 27.4214 181.904 28.2177 183.278C29.0138 184.653 30.4973 185.44 32.0493 185.364C32.7591 186.741 34.1851 187.628 35.7762 187.628C37.3673 187.628 38.7933 186.741 39.5031 185.364C39.5721 185.367 39.6409 185.369 39.7096 185.369C41.1847 185.369 42.574 184.591 43.3346 183.278C44.1309 181.904 44.0735 180.228 43.2324 178.927C44.0735 177.625 44.1309 175.95 43.3346 174.575V174.575ZM39.4676 182.882H32.0847C31.6479 182.882 31.2937 182.528 31.2937 182.091C31.2937 180.381 32.2567 178.892 33.6686 178.136C33.3366 177.695 33.1394 177.147 33.1394 176.554C33.1394 175.1 34.3223 173.917 35.7762 173.917C37.23 173.917 38.4129 175.1 38.4129 176.554C38.4129 177.147 38.2158 177.695 37.8837 178.136C39.2956 178.892 40.2586 180.381 40.2586 182.091C40.2586 182.528 39.9044 182.882 39.4676 182.882Z" fill="#969696"/>
+                        <path d="M31.1367 194.747C31.5736 194.747 31.9277 194.393 31.9277 193.956C31.9277 193.519 31.5736 193.165 31.1367 193.165C30.6999 193.165 30.3457 193.519 30.3457 193.956C30.3457 194.393 30.6999 194.747 31.1367 194.747Z" fill="#969696"/>
+                        <path d="M35.7246 193.956C34.4161 193.956 33.3516 192.892 33.3516 191.583C33.3516 190.275 34.4161 189.21 35.7246 189.21C37.0331 189.21 38.0977 190.275 38.0977 191.583C38.0977 192.892 37.0331 193.956 35.7246 193.956Z" fill="#969696"/>
+                        </g>
+                        <path d="M59.7633 329.767C60.0391 330.955 60.2398 332.171 60.3604 333.41L59.7632 333.468C59.85 334.36 59.8944 335.264 59.8944 336.177C59.8944 337.091 59.85 337.995 59.7632 338.887L60.3604 338.945C60.2398 340.184 60.0391 341.4 59.7633 342.588L59.1788 342.453C58.7661 344.231 58.1817 345.947 57.4432 347.581L57.99 347.828C57.4816 348.954 56.9018 350.042 56.2562 351.087L55.7457 350.772C54.7944 352.312 53.6969 353.758 52.4717 355.09L52.9133 355.496C52.0812 356.402 51.1915 357.255 50.2499 358.053L49.8622 357.595C48.4875 358.759 46.9998 359.8 45.417 360.7L45.7136 361.221C44.6487 361.827 43.5416 362.37 42.3978 362.846L42.1674 362.292C40.5146 362.979 38.7834 363.522 36.9902 363.905L37.1155 364.492C35.9237 364.747 34.7052 364.932 33.4647 365.043L33.4111 364.445C32.5174 364.526 31.6119 364.567 30.6964 364.567C29.7809 364.567 28.8754 364.526 27.9817 364.445L27.9281 365.043C26.6876 364.932 25.4691 364.747 24.2773 364.492L24.4027 363.905C22.6095 363.522 20.8782 362.979 19.2254 362.292L18.9951 362.846C17.8512 362.37 16.7442 361.827 15.6792 361.221L15.9759 360.7C14.3931 359.8 12.9053 358.759 11.5307 357.595L11.143 358.053C10.2013 357.255 9.31161 356.402 8.47949 355.496L8.92118 355.09C7.69598 353.758 6.59845 352.312 5.64711 350.772L5.13664 351.087C4.491 350.042 3.9112 348.954 3.4028 347.828L3.94961 347.581C3.21116 345.947 2.62672 344.231 2.21403 342.453L1.62956 342.588C1.35378 341.4 1.15304 340.184 1.03245 338.945L1.62963 338.887C1.54284 337.995 1.49844 337.091 1.49844 336.177C1.49844 335.264 1.54284 334.36 1.62962 333.468L1.03245 333.41C1.15304 332.171 1.35378 330.955 1.62956 329.767L2.21403 329.902C2.62672 328.124 3.21115 326.408 3.94961 324.774L3.4028 324.527C3.91119 323.401 4.491 322.313 5.13664 321.268L5.64711 321.583C6.59845 320.043 7.69597 318.597 8.92118 317.265L8.47949 316.858C9.31161 315.953 10.2013 315.1 11.143 314.302L11.5307 314.76C12.9053 313.596 14.3931 312.555 15.9759 311.655L15.6792 311.134C16.7442 310.528 17.8512 309.985 18.995 309.509L19.2254 310.063C20.8782 309.376 22.6095 308.833 24.4027 308.45L24.2773 307.863C25.4691 307.608 26.6876 307.423 27.9281 307.312L27.9817 307.91C28.8754 307.829 29.7809 307.788 30.6964 307.788C31.6119 307.788 32.5174 307.829 33.4111 307.91L33.4647 307.312C34.7052 307.423 35.9237 307.608 37.1155 307.863L36.9902 308.45C38.7833 308.833 40.5146 309.376 42.1674 310.063L42.3978 309.509C43.5416 309.985 44.6487 310.528 45.7136 311.134L45.417 311.655C46.9998 312.555 48.4875 313.596 49.8622 314.76L50.2499 314.302C51.1915 315.1 52.0812 315.953 52.9133 316.858L52.4717 317.265C53.6969 318.597 54.7944 320.043 55.7457 321.583L56.2562 321.268C56.9018 322.313 57.4816 323.401 57.99 324.527L57.4432 324.774C58.1817 326.408 58.7661 328.124 59.1788 329.902L59.7633 329.767Z" fill="white" stroke="#969696" stroke-width="1.2" stroke-dasharray="6 4"/>
+                        <g clip-path="url(#clip2_0_1)">
+                        <path d="M35.9148 335.507C35.8515 335.239 35.6553 335.025 35.395 334.938L31.514 333.644L34.2702 328.132C34.4433 327.785 34.3397 327.363 34.0253 327.136C33.7094 326.91 33.2768 326.944 33.0033 327.219L25.0932 335.129C24.8993 335.323 24.8197 335.603 24.8823 335.87C24.9456 336.137 25.1419 336.352 25.4022 336.438L29.2831 337.732L26.5269 343.244C26.3539 343.591 26.4574 344.013 26.7718 344.24C27.0867 344.466 27.5184 344.433 27.7938 344.158L35.7039 336.247C35.8978 336.053 35.9774 335.773 35.9148 335.507Z" fill="#969696"/>
+                        <path d="M30.3984 322.188C26.3838 322.188 22.5917 324.056 20.0625 327.068V326.196C20.0625 325.759 19.7087 325.405 19.2715 325.405C18.8343 325.405 18.4805 325.759 18.4805 326.196V329.557C18.4805 330.311 19.4555 330.42 19.2715 330.348C19.2877 330.348 19.3039 330.347 19.3202 330.346L22.4842 330.15C22.9207 330.123 23.2521 329.747 23.225 329.312C23.198 328.876 22.8172 328.548 22.3869 328.571L20.7841 328.671C23.0042 325.651 26.5963 323.771 30.3984 323.771C36.9413 323.771 42.3164 329.146 42.3164 335.688C42.3164 336.126 42.6702 336.479 43.1074 336.479C43.5446 336.479 43.8984 336.126 43.8984 335.688C43.8984 328.273 37.8134 322.188 30.3984 322.188Z" fill="#969696"/>
+                        <path d="M41.4767 341.031L38.3127 341.227C37.8762 341.254 37.5448 341.63 37.5718 342.065C37.5989 342.501 37.9882 342.833 38.41 342.806L40.0128 342.706C37.7927 345.726 34.2006 347.606 30.3984 347.606C23.8556 347.606 18.4805 342.231 18.4805 335.688C18.4805 335.251 18.1267 334.897 17.6895 334.897C17.2522 334.897 16.8984 335.251 16.8984 335.688C16.8984 343.103 22.9835 349.188 30.3984 349.188C34.4131 349.188 38.2052 347.321 40.7344 344.309V345.181C40.7344 345.618 41.0882 345.972 41.5254 345.972C41.9626 345.972 42.3164 345.618 42.3164 345.181V341.82C42.3164 341.386 41.8998 341.007 41.4767 341.031Z" fill="#969696"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_0_1">
+                        <rect width="27" height="27" fill="white" transform="translate(17.8984 16.2695)"/>
+                        </clipPath>
+                        <clipPath id="clip1_0_1">
+                        <rect width="27" height="27" fill="white" transform="translate(16.8984 170.226)"/>
+                        </clipPath>
+                        <clipPath id="clip2_0_1">
+                        <rect width="27" height="27" fill="white" transform="translate(16.8984 322.188)"/>
+                        </clipPath>
+                        </defs>
+                        </svg>                        
+                        </div>
+                     <div class="card-text">
+                        <p class="card-text-in">Абсолютно новый подход к организации путешествий. Мы помогаем реализовать путешествие согласно стилю жизни и предпочтениям клиента.</p>
+                        <p class="card-text-in">Сервис и дополнительные услуги, благодаря которым 100% времени вы уделите именно отдыху, а не решению мелких задач.</p>
+                        <p class="card-text-in">Комфорт премиум-класса за оптимальную стоимость, благодаря специальным условиям, которые дают нам партнеры.  </p>
+                     </div>
+                 </div>
+                 <div class="footer">
+                    <div class="logo-footer"> <img class="img-logo" src="img/img1.png"></div>
+                    <div class="footer-text1">
+                        <p class="foter-text-in">Отели</p>
+                        <p class="foter-text-in">Страны</p>
+                        <p class="foter-text-in">Maistra online</p>
+                        <p class="foter-text-in">Туры online</p>
+                    </div>
+                    <div class="footer-text2">
+                        <p class="footer-text-in">Агентам</p>
+                        <p class="footer-text-in">О нас</p>
+                        <p class="footer-text-in">Блог</p>
+                 </div>
+                 <div class="footer-text2">
+                    <p class="footer-text-title">Режим работы</p>
+                    <p class="footer-text-in1">Пн-Пт 10:00-19:00</p>
+             </div>
+             <div class="footer-text2">
+                 <p class="footer-text-in">+38 (000) 000-00-00</p>
+                 <p class="footer-text-in">+38 (000) 000-00-00</p>
+                 <br><br>
+                <p class="footer-text-title">Все контакты</p>
+             </div>
+         </div>
+         <div class="line17">
+         <div class="end">
+         <p class="footer-bot">2002-2021 Туроператор Valanta Travel Company</p>
+         <img class="fot-img" src="img/fot.png">
+        </div>
+
+</body>
+</html>
